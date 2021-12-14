@@ -46,3 +46,44 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ------------------------  CUSTOM STYLES ------------------------ */ 
+
+body{
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, nav ul li a{
+    color: #27b5e4;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+nav ul {
+	right: 0;
+	display: flex;
+	font-size: 1em;
+	font-weight: bold;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li {
+	padding: 1em;
+}
+
+/* ------------------------ HOME PAGE ------------------------ */ 
+
+.banner{
+	width: 100%;
+}
+
+.about {
+	padding: 2em 4em;
+	text-align: center;
+}
+
+.about div {
+	margin: 2em auto;
+}
