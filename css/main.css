@@ -3,82 +3,195 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	font-family: 'Raleway', sans-serif;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
-ol, ul {
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-/* ------------------------  CUSTOM STYLES ------------------------ */ 
+/* ------------------------  CUSTOM STYLES ------------------------ */
 
-body{
-    margin: 0 auto;
+body {
+	margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, nav ul li a{
-    color: #27b5e4;
-	font-family: 'Raleway', sans-serif;
+h1 {
+	font-size: 5em;
 }
 
+h2 {
+	font-size: 4em;
+	text-align: center;
+}
 
-nav ul {
-	right: 0;
-	display: flex;
-	font-size: 1em;
-	font-weight: bold;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+h3 {
+	font-size: 3em;
+}
+
+h4 {
+	font-size: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+nav ul li a {
+	color: #27b5e4;
 }
 
 nav ul li {
+	font-weight: bold;
 	padding: 1em;
 }
 
-/* ------------------------ HOME PAGE ------------------------ */ 
+.btn {
+	background-color: #27b5e4;
+	border-radius: 20px;
+	color: white;
+}
 
-.banner{
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* -------------------------------------------------------------- 
+                            HOME PAGE 
+-------------------------------------------------------------- */
+
+.banner img {
 	width: 100%;
 }
 
+/* ------------ ABOUT SECTION ------------ */
 .about {
 	padding: 2em 4em;
 	text-align: center;
@@ -86,4 +199,193 @@ nav ul li {
 
 .about div {
 	margin: 2em auto;
+}
+
+/* ------------ CATEGORIES SECTION ------------ */
+.categories {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin: 2em 0;
+}
+
+.categories img {
+	width: 100%;
+	z-index: -1;
+	position: relative;
+}
+
+.categories a {
+	text-decoration: none;
+	color: white;
+}
+
+.design h3 {
+	text-align: center;
+	position: absolute;
+	top: 27%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+}
+
+.art h3 {
+	text-align: center;
+	position: absolute;
+	top: 27%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+}
+
+.photo h3 {
+	text-align: center;
+	position: absolute;
+	top: 75%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+}
+
+.video h3 {
+	text-align: center;
+	position: absolute;
+	top: 75%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+}
+
+.fullportfolio {
+	text-align: center;
+}
+
+/* ------------ TESTIMONIALS SECTION ------------ */
+.testimonials {
+	margin: 2em 0;
+	padding: 0 4em;
+}
+
+.testimonials p {
+	padding: 1em;
+	text-align: center;
+}
+
+/* ------------ FOOTER ------------ */
+footer {
+	display: inline-block;
+}
+
+footer a {
+	color: #27b5e4;
+}
+
+/* -------------------------------------------------------------- 
+                    	    ABOUT PAGE 
+-------------------------------------------------------------- */
+
+.container {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	margin: 0 auto;
+}
+
+.container div {
+	padding: 1em 0;
+}
+
+.container img {
+	max-height: 500px;
+	max-width: auto;
+}
+
+/* -------------------------------------------------------------- 
+                    	DESKTOP STYLES 
+-------------------------------------------------------------- */
+
+@media screen and (min-width:800px) {
+
+	html {
+		font-size: 16px;
+	}
+
+.categories {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat( 4, 1fr);
+	max-height: 40em;
+	margin: 2em 0;
+}
+
+.categories img {
+	width: 100%;
+	z-index: -1;
+	position: relative;
+}
+
+.categories a {
+	text-decoration: none;
+	color: white;
+}
+
+	.design h3 {
+	text-align: center;
+	position: absolute;   top: 50%;   left: 12%;   transform: translate(-50%, -50%); 
+}
+
+.art h3 {
+	text-align: center;
+	position: absolute;   top: 50%;   left: 37%;   transform: translate(-50%, -50%); 
+}
+
+.photo h3 {
+	text-align: center;
+	position: absolute;   top: 50%;   left: 63%;   transform: translate(-50%, -50%); 
+}
+
+.video h3 {
+	text-align: center;
+	position: absolute;   top: 50%;   left: 88%;   transform: translate(-50%, -50%); 
+}
+
+/* -------------------------------------------------------------- 
+                    	    ABOUT PAGE 
+-------------------------------------------------------------- */ 
+
+.container {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-template-areas: 
+	"image header header"
+	"image text text"
+	"image text text"
+	"image text text"
+}
+
+.container img {
+	max-height: 700px;
+	max-width: auto;
+}
+
+.container h2{
+	text-align: left;
+	padding: 0 1em;
+}
+
+.container p {
+	text-align: left;
+	padding: 0 1em;
+	line-height: 1.4em;
+}
+
+.aboutimg{
+	grid-area: image;
+  }
+
+  .aboutheader {
+	grid-area: header;
+  }
+
+  .abouttext{
+	grid-area: text;
+  }
+
 }
