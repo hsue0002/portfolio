@@ -1,121 +1,36 @@
-# portfolio
+# Emily Hsueh Portfolio
 
-# Markdown Cheat Sheet
+## How it was created
 
-Thanks for visiting [The Markdown Guide](https://www.markdownguide.org)!
+The first thing I did to created this website, aside from creating a repository, was to include all the html and bootstrap elements. 
 
-This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for [basic syntax](https://www.markdownguide.org/basic-syntax) and [extended syntax](https://www.markdownguide.org/extended-syntax).
+Next, I used derivv.com to resize all the images that I used and put them in an image folder.
 
-## Basic Syntax
+I then went to getbootstrap.com to source the bootstrap elements on my site.
 
-These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
-
-### Heading
-
-# H1
-## H2
-### H3
-
-### Bold
-
-**bold text**
-
-### Italic
-
-*italicized text*
-
-### Blockquote
-
-> blockquote
-
-### Ordered List
-
-1. First item
-2. Second item
-3. Third item
-
-### Unordered List
-
-- First item
-- Second item
-- Third item
-
-### Code
-
-`code`
-
-### Horizontal Rule
+After styling the bootstrap elements, I moved to the css to finish the styles, using css reset and media queries.
 
 ---
 
-### Link
+## Challenges
 
-[Markdown Guide](https://www.markdownguide.org)
+The biggest challenge I faced in developing this site was my styles not applying to my elements. To overcome this, I frequently used the element selector in my web browser to isolate the problem and revisited my code to change it. I also had trouble aligining some elements, and ended up using big margins and padding to fix it, though I don't believe that is the best way to do it. However, it was the best solution I had at the time.
 
-### Image
+---
 
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
+## What I learned
 
-## Extended Syntax
+I learned that the most dominant stylesheet should be added last. I also learned how to implement bootstrap and how easy it is.
 
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+---
 
-### Table
+# Resources
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+- [Accordion Bootstrap code](https://getbootstrap.com/docs/5.1/components/accordion/)
+- [Navbar Bootstrap code](https://getbootstrap.com/docs/5.1/components/navbar/)
+- [Google Fonts - Montserrat](https://fonts.google.com/specimen/Montserrat)
 
-### Fenced Code Block
 
-```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
+Thanks for a great semester, I learned a lot! I will keep working on this site to make it good enough to send to employers.
 
-### Footnote
-
-Here's a sentence with a footnote. [^1]
-
-[^1]: This is the footnote.
-
-### Heading ID
-
-### My Great Heading {#custom-id}
-
-### Definition List
-
-term
-: definition
-
-### Strikethrough
-
-~~The world is flat.~~
-
-### Task List
-
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-
-### Emoji
-
-That is so funny! :joy:
-
-(See also [Copying and Pasting Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
-
-### Highlight
-
-I need to highlight these ==very important words==.
-
-### Subscript
-
-H~2~O
-
-### Superscript
-
-X^2^
+- Emily Hsueh

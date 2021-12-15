@@ -268,12 +268,24 @@ a {
 }
 
 /* ------------ FOOTER ------------ */
+
 footer {
-	display: inline-block;
+	text-align: center;
 }
 
-footer a {
+footer div {
+	display: inline-block;
+
+	margin: 2em 4em;
+}
+
+footer a,
+footer p {
 	color: #27b5e4;
+}
+
+.icons a {
+	margin: 0 2em;
 }
 
 /* -------------------------------------------------------------- 
@@ -295,6 +307,10 @@ footer a {
 	max-width: auto;
 }
 
+/* -------------------------------------------------------------- 
+                    	    PORTFOLIO PAGE 
+-------------------------------------------------------------- */
+
 .portfoliobanner {
 	width: 100%;
 }
@@ -302,6 +318,46 @@ footer a {
 .accordion-body {
 	text-align: center;
 }
+
+/* -------------------------------------------------------------- 
+                    	    CONTACT PAGE 
+-------------------------------------------------------------- */
+
+.form {
+	padding: 2em;
+	width: 100%;
+	align-content: center;
+}
+
+.form h3{
+	margin-bottom: 1em;
+}
+
+.contact input {
+	display: block;
+	min-width: 100%;
+	margin: 1em 0 1em;
+}
+
+.contact textarea {
+	display: block;
+	min-width: 100%;
+	min-height: 10em;
+	margin: 1em 0 2em 0;
+}
+
+.contact h3 {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.form p {
+	max-width: 40em;
+	text-align: center;
+	margin: 1em auto 0 auto;
+	width: 100%;
+}
+
 
 /* -------------------------------------------------------------- 
                     	DESKTOP STYLES 
@@ -322,7 +378,7 @@ footer a {
 		margin-left: 350px;
 	}
 
-	.about p{
+	.about p {
 		text-align: left;
 		margin-left: 350px;
 	}
